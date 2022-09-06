@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0% 8%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 160px;
+    
+}
+nav ul li{
+    display: inline;
+    margin: 30px 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    size: 20px;
+}
+h1{
+    font-size: 75px;
+    margin-top: 80px;
+}
+.hero button{
+    background: #393939;
+    border: 0;
+    outline:none;
+    padding: 15px 20px;
+    color:antiquewhite;
+    margin-top: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.indicator span{
+    display: inline-block;
+    background: #393939;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.indicator{
+    margin-top: 150px;
+}
+.indicator .active{
+    background-color: aliceblue;
+}
+.cta {
+    position: absolute;
+    right: 8%;
+    width: 25%;
+    bottom: 100px;
+    min-width: 250px;
+}
+button:hover{
+    background: #000;
+}
+.anim-typewriter{
+    animation:typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter {
+    from{ width:0;}
+    to{width:16em;}
+}
+@keyframes blindTextCursor {
+    
+    
+}

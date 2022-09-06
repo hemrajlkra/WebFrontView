@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "roboto",sans-serif;
+    line-height: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0.75rem 0;
+}
+#text-primary{
+    color: goldenrod;
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    line-height: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background:goldenrod ;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius:15px ;
+}
+.btn:hover{
+    background-color:#ffbb11 ;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #555;
+    color: #fff;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: default;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+    background-color: rgb(207, 142, 0);
+    border-radius: 15px;
+}
+
+#showcase{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80)
+    no-repeat center center/cover;
+    height: 92vh;
+    color: #fff;
+    
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
